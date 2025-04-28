@@ -1,9 +1,11 @@
-**This repo is supposed to used as config by NvChad users!**
+# Useful shortcuts and commands
 
-- The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
-- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
-- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
+## Shortcuts
 
-# Credits
+    S - i - "content" // Wrap selected lines, useful to wrap html elements
+    Ctrl - W - d // Open a window containing the  message relevant cursor location
 
-1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
+## Commands
+
+    help lspconfig-all // List informations on all available lsp
+    TSInstallInfo // List all available treesitters, show which one are installed/uninstalled
