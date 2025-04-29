@@ -1,13 +1,29 @@
-# Useful shortcuts and commands
+# Useful Shortcuts and Commands
 
 ## Shortcuts
 
-    S - i - "content" // Wrap selected lines, useful to wrap html elements
+- **Wrap selected lines** (useful for wrapping HTML elements):
 
-    Ctrl - W - d // Open a window containing the  message relevant cursor location
+  ```bash
+  S → i → "content"
+  ```
+
+- **Open window with cursor-relevant message:**
+
+  ```bash
+  Ctrl + W + d
+  ```
 
 ## Commands
 
-    help lspconfig-all // List informations on all available lsp
+- **List information on all available LSPs:**
 
-    TSInstallInfo // List all available treesitters, show which one are installed/uninstalled
+  ```bash
+  :help lspconfig-all
+  ```
+
+- **Manage Treesitter installations:**
+
+  ```bash
+  :TSInstallInfo
+  ```
