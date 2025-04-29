@@ -1,4 +1,28 @@
-# Useful Shortcuts and Commands
+# NVCHAD CONFIG
+
+##
+
+### Installed LSP/Linters
+
+```bash
+css-lsp
+css-variables-language-server
+emmet-language-server
+emmet-ls
+eslint-lsp
+eslint_d
+html-lsp
+json-lsp
+lua-language-server
+markdownlint
+prettierd
+stylelint
+stylelint-lsp
+tailwindcss-language-server
+typescript-language-server
+language-server
+yaml-language-server
+```
 
 ## Shortcuts
 
