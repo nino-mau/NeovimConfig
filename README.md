@@ -26,16 +26,34 @@ yaml-language-server
 
 ## Shortcuts
 
-- **Wrap selected lines** (useful for wrapping HTML elements):
+- **Wrap selected lines with two different values**:
 
   ```bash
-  S → i → "content"
+  S → i → input1:"content" input2:"content2"
+  ```
+
+- **Wrap selected lines with html tag**:
+
+  ```bash
+  S → t → "htmltag"
   ```
 
 - **Open window with cursor-relevant message:**
 
   ```bash
-  Ctrl + W + d
+  Ctrl + W → d
+  ```
+
+- **Go inside line string in edit mode**(useful to go inside html element class):
+
+  ```bash
+  f → " → a
+  ```
+
+- **Change the tag of html element**:
+
+  ```bash
+  c → s → t → input:"tagname"
   ```
 
 ## Commands

@@ -11,6 +11,11 @@ vim.lsp.config("volar", {
   },
 })
 
+vim.lsp.config("stylelint_lsp", {
+  settings = {
+  }
+})
+
 vim.lsp.config("ts_ls", {
   init_options = {
     plugins = {

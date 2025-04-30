@@ -2,12 +2,11 @@
 local M = {}
 
 M.base46 = {
-  theme = "poimandres",
+  theme = "github_dark_custom",
 
-  -- hl_override = {
-  -- 	Comment = { italic = true },
-  -- 	["@comment"] = { italic = true },
-  -- },
+  hl_override = {
+    -- ["@tag"] = { fg = "#57ab5a" },
+  },
 }
 
 M.nvdash = { load_on_startup = true }

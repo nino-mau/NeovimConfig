@@ -1,12 +1,9 @@
 require "nvchad.mappings"
 
-local nomap = vim.keymap.del
 local map = vim.keymap.set
 
 -- Custom mappings
 
-map("n", ";", ":", { desc = "CMD enter command mode" })
-map("i", "jk", "<ESC>")
 
 -- Open project telescope interface
 map(

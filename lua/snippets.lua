@@ -1,4 +1,5 @@
 local ls = require("luasnip")
+local fmt = require("luasnip.extras.fmt").fmt
 local s = ls.snippet
 local t = ls.text_node
 local i = ls.insert_node
@@ -90,4 +91,12 @@ ls.add_snippets("vue", {
   s("cld", {
     t("console.debug("), i(1), t(");"),
   }),
+  s("v3computed", fmt([[
+    const {} = computed(() => {{
+      {}
+    }});
+    ]], {
+    i(1, "computedValue"),
+    i(2, "// logic here")
+  }))
 })
