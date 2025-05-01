@@ -64,6 +64,7 @@ M.polish_hl = {
     ["@punctuation.bracket.css"] = { fg = M.base_30.white },
     ["@keyword.import.typescript"] = { fg = "#ff7f8d" },
     ["@constant.builtin.typescript"] = { fg = "#B392E9" },
+    ["@constant.typescript"] = { fg = "#B392E9" },
     ["@type.builtin.typescript"] = { fg = "#79b8ff" },
     ["@variable.member.typescript"] = { fg = M.base_30.white },
     ["@variable.typescript"] = { fg = "#79b8ff" },
