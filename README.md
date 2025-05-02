@@ -69,3 +69,9 @@ yaml-language-server
   ```bash
   :TSInstallInfo
   ```
+
+- **Open a list of diagnostic on current page:**
+
+  ```bash
+  :lua vim.diagnostic.setqflist()
+  ```
