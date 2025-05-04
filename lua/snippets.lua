@@ -289,6 +289,17 @@ ls.add_snippets("typescript", {
     { t("export "), i(1, "member"), t(";") }
   ),
 
+  s({ trig = "ie", name = "export interface", dscr = "export interface" },
+    fmt(
+      [[
+      export interface {} {{
+      	{}:;
+      }}
+      ]],
+      { i(1, "interfacename"), i(0) }
+    )
+  ),
+
   s({ trig = "ec", name = "module export const", dscr = "export const member = value" },
     { t("export const "), i(1, "member"), t(" = "), i(2, "value"), t(";") }
   ),
@@ -298,6 +309,17 @@ ls.add_snippets("typescript", {
     fmt(
       [[
       export function {}({}) {{
+      	{}
+      }}
+      ]],
+      { i(1, "functionname"), i(2, "args"), i(0) }
+    )
+  ),
+
+  s({ trig = "eaf", name = "export async named function", dscr = "export async function member(...) { ... }" },
+    fmt(
+      [[
+      export async function {}({}) {{
       	{}
       }}
       ]],
