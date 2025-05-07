@@ -1,4 +1,5 @@
 ---@type ChadrcConfig
+---@class customClass: plugins
 local M = {}
 
 M.base46 = {
@@ -15,5 +16,8 @@ M.nvdash = { load_on_startup = true }
 --          lazyload = false
 --      }
 --}
+
+
+
 
 return M

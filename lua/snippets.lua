@@ -7,6 +7,7 @@ local i = ls.insert_node
 
 -- All
 
+
 ls.add_snippets("all", {
   -- Functions Block
   s("cFunc", {

@@ -1,0 +1,54 @@
+{
+  "Functions Block": {
+    "prefix": "cFunc",
+    "body": ["// === Functions ==="],
+    "description": "Functions Block"
+  },
+  "State Block": {
+    "prefix": "cState",
+    "body": ["// === State ==="],
+    "description": "State Block"
+  },
+  "Setup Block": {
+    "prefix": "cSetup",
+    "body": ["// === Setup ==="],
+    "description": "Setup Block"
+  },
+  "Comment Title": {
+    "prefix": "cTitle",
+    "body": ["// === ${1} ==="],
+    "description": "Comment Title"
+  },
+  "HTML Comment": {
+    "prefix": "cHtm",
+    "body": ["<!-- ${1} -->"],
+    "description": "HTML Comment"
+  },
+  "Comment Section": {
+    "prefix": "cSec",
+    "body": ["/**", "* ${1}", "*/"],
+    "description": "Comment Section"
+  },
+  "JSDoc Comment": {
+    "prefix": "cDoc",
+    "body": ["/**", " * ${1}", " */"],
+    "description": "JSDoc Comment"
+  },
+  "Vue 3 Setup Boilerplate": {
+    "prefix": "v3setup",
+    "body": [
+      "<template>",
+      "  <div class=\"${1:className}\">",
+      "    ${2:content}",
+      "  </div>",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "</script>",
+      "",
+      "<style scoped>",
+      "</style>"
+    ],
+    "description": "Vue 3 <script setup> boilerplate"
+  }
+}
